@@ -7,5 +7,3 @@ Prepared for **Workshop in Mathematical Finance** in the **Master of Mathematica
 ## Credits
 
 Alex Khadra, Matthew Antoniuk, and Gerard Wu.
-
-Copyright (c) 2026 Gerard Wu. All rights reserved.
