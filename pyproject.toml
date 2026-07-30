@@ -7,7 +7,9 @@ authors = [
     { name = "Gerard Wu", email = "230164507+GerardWuHeston@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "scipy>=1.18.0",
+]
 
 [project.scripts]
 sector-rotation-strategy = "sector_rotation_strategy:main"
