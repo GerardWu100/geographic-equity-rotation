@@ -14,6 +14,10 @@ Alex Khadra, Matthew Antoniuk, and Gerard Wu.
 - `data/processed/Index_ETF_Data.csv` is a UTF-8 CSV conversion of the workbook's
   only worksheet. It preserves row order, column positions, blank cells, text,
   and the exact numeric values stored by Excel.
+- `data/raw/RiskReversalData.xlsx` is the unchanged source workbook.
+- `data/processed/RiskReversalData.csv` is a UTF-8 CSV conversion of the workbook's
+  only worksheet, produced the same way: row order, column positions, blank
+  cells, text, and the exact numeric values stored by Excel are preserved.
 
 Regenerate and verify the CSV from the project root:
 
