@@ -1,0 +1,17 @@
+[project]
+name = "sector-rotation-strategy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gerard Wu", email = "230164507+GerardWuHeston@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+sector-rotation-strategy = "sector_rotation_strategy:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
