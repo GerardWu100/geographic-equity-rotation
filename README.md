@@ -1,6 +1,6 @@
-# Sector Rotation Strategy
+# Geographic Equity Rotation
 
-Research repository for a sector / cross-asset rotation strategy.
+Research repository for a geographic equity rotation strategy.
 
 Prepared for **Workshop in Mathematical Finance** in the **Master of Mathematical Finance** program.
 

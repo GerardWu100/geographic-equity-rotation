@@ -1,7 +1,7 @@
 [project]
-name = "sector-rotation-strategy"
+name = "geographic-equity-rotation"
 version = "0.1.0"
-description = "Add your description here"
+description = "Research code for a geographic equity rotation strategy"
 readme = "README.md"
 authors = [
     { name = "Gerard Wu", email = "230164507+GerardWuHeston@users.noreply.github.com" }
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-sector-rotation-strategy = "sector_rotation_strategy:main"
+geographic-equity-rotation = "geographic_equity_rotation:main"
 
 [build-system]
 requires = ["uv_build>=0.12.0,<0.13.0"]
