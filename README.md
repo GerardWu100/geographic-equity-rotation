@@ -4,6 +4,23 @@ Research repository for a sector / cross-asset rotation strategy.
 
 Prepared for **Workshop in Mathematical Finance** in the **Master of Mathematical Finance** program.
 
+## Notebook workflow
+
+- `EDA.ipynb` contains the original exploratory data analysis.
+- `Signals.ipynb` contains the original signal research and single-ETF rotation.
+- `Allocation.ipynb` contains the original allocation experiments.
+- `StrategyPipeline.ipynb` is the corrected combined workflow. It removes copied
+  non-session rows, excludes the invalid Japanese volatility series, uses
+  purged walk-forward validation and next-close execution, applies a fixed
+  top-two allocation, and adds simple volatility targeting with cash.
+
+Install the declared environment and open Jupyter from the project root:
+
+```bash
+uv sync
+uv run jupyter lab
+```
+
 ## Credits
 
 Alex Khadra, Matthew Antoniuk, and Gerard Wu.
