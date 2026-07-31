@@ -27,10 +27,6 @@ uv sync
 uv run jupyter lab
 ```
 
-## Credits
-
-Alex Khadra, Matthew Antoniuk, and Gerard Wu.
-
 ## Data
 
 - `data/raw/Index_ETF_Data.xlsx` and `data/raw/RiskReversalData.xlsx` are the
@@ -42,3 +38,7 @@ Alex Khadra, Matthew Antoniuk, and Gerard Wu.
 - `data/Index_ETF_Data_Clean.csv` and `data/RiskReversalData_Clean.csv` are the
   cleaned series used by the notebooks.
 - `data/processed/signals.csv` stores derived signal outputs.
+
+## Credits
+
+Alex Khadra, Matthew Antoniuk, and Gerard Wu.
