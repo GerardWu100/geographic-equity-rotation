@@ -1,5 +1,4 @@
 .venv/
-node_modules/
 __pycache__/
 *.egg-info/
 .ipynb_checkpoints/
@@ -8,9 +7,6 @@ __pycache__/
 outputs/
 logs/
 *.log
-presentation/build/
-presentation/thumbnails/
-presentation/preview.png
 
 # Local secrets, credentials, and machine-specific state.
 .env

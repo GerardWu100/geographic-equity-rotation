@@ -18,7 +18,7 @@ Prepared for **Workshop in Mathematical Finance** in the **Master of Mathematica
 
 `presentation/Geographic_Equity_Rotation.pptx` is a nine-slide summary designed
 for an 11- to 13-minute presentation. Speaker notes provide pacing and the main
-talk track. Rebuild instructions are in `presentation/README.md`.
+talk track. A PDF export is also in `presentation/`.
 
 Install the declared environment and open Jupyter from the project root:
 
@@ -33,17 +33,12 @@ Alex Khadra, Matthew Antoniuk, and Gerard Wu.
 
 ## Data
 
-- `data/raw/Index_ETF_Data.xlsx` is the unchanged source workbook.
-- `data/processed/Index_ETF_Data.csv` is a UTF-8 CSV conversion of the workbook's
-  only worksheet. It preserves row order, column positions, blank cells, text,
-  and the exact numeric values stored by Excel.
-- `data/raw/RiskReversalData.xlsx` is the unchanged source workbook.
-- `data/processed/RiskReversalData.csv` is a UTF-8 CSV conversion of the workbook's
-  only worksheet, produced the same way: row order, column positions, blank
-  cells, text, and the exact numeric values stored by Excel are preserved.
-
-Regenerate and verify the CSV from the project root:
-
-```bash
-uv run python scripts/convert_xlsx_to_csv.py
-```
+- `data/raw/Index_ETF_Data.xlsx` and `data/raw/RiskReversalData.xlsx` are the
+  unchanged source workbooks.
+- `data/processed/Index_ETF_Data.csv` and `data/processed/RiskReversalData.csv`
+  are UTF-8 CSV conversions of each workbook's only worksheet. They preserve
+  row order, column positions, blank cells, text, and the exact numeric values
+  stored by Excel.
+- `data/Index_ETF_Data_Clean.csv` and `data/RiskReversalData_Clean.csv` are the
+  cleaned series used by the notebooks.
+- `data/processed/signals.csv` stores derived signal outputs.
