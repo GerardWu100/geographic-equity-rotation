@@ -14,19 +14,6 @@ Prepared for **Workshop in Mathematical Finance** in the **Master of Mathematica
   purged walk-forward validation and next-close execution, applies a fixed
   top-two allocation, and adds simple volatility targeting with cash.
 
-## Presentation
-
-`presentation/Geographic_Equity_Rotation.pptx` is a nine-slide summary designed
-for an 11- to 13-minute presentation. Speaker notes provide pacing and the main
-talk track. A PDF export is also in `presentation/`.
-
-Install the declared environment and open Jupyter from the project root:
-
-```bash
-uv sync
-uv run jupyter lab
-```
-
 ## Data
 
 - `data/raw/Index_ETF_Data.xlsx` and `data/raw/RiskReversalData.xlsx` are the
